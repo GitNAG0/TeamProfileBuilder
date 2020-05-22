@@ -1,0 +1,19 @@
+{
+  "name": "Team Profile Builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.0.6",
+    "jest": "^25.1.0"
+  }
+}
