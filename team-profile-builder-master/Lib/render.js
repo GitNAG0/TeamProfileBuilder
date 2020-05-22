@@ -49,7 +49,7 @@ const renderIntern = intern => {
   template = replacePlaceholders(template, "role", intern.getRole());
   template = replacePlaceholders(template, "email", intern.getEmail());
   template = replacePlaceholders(template, "id", intern.getId());
-  template = replacePlaceholders(template, "school", intern.getSchool());
+  template = replacePlaceholders(template, "school ", intern.getSchool());
   return template;
 };
 
